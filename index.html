@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1 class="text-center">Task Tracker</h1>
+    </header>
+    <div class="container">
+        <form>
+            <div>
+                <label for="toDoText" class="form-label">Please enter a task</label>
+                <input id="to-do-text" type="text" class="form-control" id="toDoText">
+            </div>
+            <div class="d-grid gap-2">
+                <button id="to-do-submit" type="submit" class="btn btn-primary btn-block">Submit</button>
+            </div>
+        </form>
+        <div>
+            <ul id="to-do-list" class="list-group">
+            </ul>
+        </div>
+        <button id="sort" class="btn btn-secondary">Sort</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
