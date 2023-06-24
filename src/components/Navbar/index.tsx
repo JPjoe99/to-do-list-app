@@ -9,8 +9,8 @@ function Navbar() {
       <ul className="navbar-links">
         <NavbarItem link="/" text="To Do List App" />
         <div className="navbar-links-right">
-            <NavbarItem link="todos/create" text="Create A To Do" />
-            <NavbarItem link="todos" text="View To Dos" />
+          <NavbarItem link="todos/create" text="Create A To Do" />
+          <NavbarItem link="todos" text="View To Dos" />
         </div>
       </ul>
     </Header>
