@@ -1,0 +1,11 @@
+.view-to-dos-container {
+    display: flex;
+
+    &-left {
+        flex: 2 1 0;
+    }
+
+    &-right {
+        flex: 3 1 0;
+    }
+}
