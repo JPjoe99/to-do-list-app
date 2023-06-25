@@ -1,0 +1,9 @@
+*
+src/**/*.test.tsx
+!src
+!package.json
+!pnpm-lock.yaml
+!tsconfig.json
+!tsconfig.node.json
+!vite.config.ts
+!index.html
