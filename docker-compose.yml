@@ -3,3 +3,8 @@ services:
     build: ./app/.
     ports:
       - "8000:80"
+  
+  api:
+    build: ./api/.
+    ports:
+      - "8001:8001"
